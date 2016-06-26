@@ -7,4 +7,4 @@ Rscript scripts/1_run_test.r
 echo "Uploading file"
 git add output.csv
 git commit -m "file"
-git push
+git push origin master
