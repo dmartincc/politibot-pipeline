@@ -5,4 +5,6 @@ echo "Run model"
 Rscript scripts/1_run_test.r
 
 echo "Uploading file"
-bash Dropbox-Uploader/dropbox_uploader.sh upload output.csv output.csv
+git add output.csv
+git commit -m "file"
+git push
